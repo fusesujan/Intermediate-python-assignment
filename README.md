@@ -15,12 +15,15 @@
 Map, Filter, and Reduce are higher-order functions in Python used for functional programming.
 
 - Map: The map() function applies a given function to each element of an iterable (e.g., list, tuple) and returns a new iterator containing the results. It allows you to transform all elements in a collection at once without using explicit loops.
+
   Use Case: When you need to transform elements in a collection based on a specific rule or function, such as converting units, applying a mathematical operation, or modifying the format of the data.
 
 - Filter: The filter() function filters out elements from an iterable based on a given function's condition and returns a new iterator with the elements that satisfy the condition. It is useful when you want to extract specific elements from a collection that meet certain criteria.
+
   Use Case: When you want to extract elements that satisfy certain conditions or remove unwanted elements from a collection.
 
 - Reduce: The reduce() function, which was available in Python's built-in functools module (Python 2) and is available in Python 3 as well after importing from the functools module, performs a cumulative computation on an iterable using a specified function. It reduces the elements of the iterable to a single value.
+
   Use Case: When you need to perform a cumulative computation on a collection, like finding the sum, product, maximum, or minimum value of a list of numbers.
 
 ---
@@ -34,7 +37,9 @@ result = value_if_true if condition else value_if_false
 </pre>
 
 The ternary operator is useful for writing simple conditional expressions in a compact and readable manner. It can improve code readability and reduce the number of lines in cases where the conditions are straightforward.
+
 ** When NOT to use the ternary operator: **
+
 The ternary operator, while concise and readable for simple cases, can become less clear and more confusing when the conditions are complex or involve multiple branches. Using the ternary operator for more complex expressions might negatively impact code readability, making it harder for other developers to understand the intent of the code. Avoid using ternary operator in nested condition, long expressions and in if it may does side effects.
 
 ---
