@@ -1,4 +1,4 @@
-#Doc String
+## Doc String
 
 A docstring is a special type of string used to document functions, classes, modules, or methods. It provides a way to describe what the code does, its purpose, usage, and any relevant details. Docstrings are used for documentation purposes and serve as a helpful reference for developers who use or maintain the code.
 
